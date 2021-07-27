@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>penguin website with tailwind</title>
+    <!-- tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="fixed w-screen py-5">
+      <div class="container py-3 mx-auto">
+        <nav class="flex items-center justify-between">
+          <div class="w-64 logo" >
+            <img src="icons/Group 33072.png" alt="" />
+          </div>
+          <ul class="flex navigation align-center">
+            <li><a href="" class="ml-10 font-bold text-gray-900 capitalize">home</a></li>
+            <li><a href="" class="ml-10 font-bold text-gray-900 capitalize">product</a></li>
+            <li><a href="" class="ml-10 font-bold text-gray-900 capitalize">about us</a></li>
+            <li><a href="" class="ml-10 font-bold text-gray-900 capitalize">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+    <main>
+        <section class="py-16 bg-yellow-100 banner">
+            <div class="container py-16 mx-auto">
+                <div class="flex items-center justify-between px-5 content">
+                    <div class="space-y-8 left-content">
+                        <h1 class="space-y-8 text-6xl font-bold uppercase"><span class="text-yellow-400">be the pengins</span> <br>of winter</h1>
+                        <p class="w-9/12 font-semibold text-gray-900">lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <button>buy now</button>
+                    </div>
+                    <div class="right-img">
+                        <img src="images/model.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
